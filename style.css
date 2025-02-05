@@ -1,0 +1,392 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* .bodywidth{
+    border:  solid black 2px;
+    width: 100%;
+    justify-items: center;
+    justify-items: center;
+} */
+.topcontainer {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-around;
+    margin-top: 10px;
+    /* border: solid gray 2px; */
+    align-items: center;
+}
+
+.topcontainer1 img {
+    width: 180px;
+    height: 40px;
+
+}
+
+.topcontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topcontainer2 p {
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+
+}
+
+.topcontainer3 {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.Navbar p {
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.Navbar img {
+    width: 15px;
+    height: 15px;
+
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.Navbar__1 {
+    text-decoration: underline;
+}
+
+.Search__tit {
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+
+}
+
+.Search__container {
+    border: solid rgb(188, 188, 188) 1px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Search__container input {
+    border: none;
+    width: 30%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Search__container button {
+    border: solid #34E0A1 2px;
+    background-color: #34E0A1;
+    border-radius: 40px;
+    padding: 10px;
+    right: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 8);
+    font-weight: 800px;
+}
+
+.imggg {
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+
+}
+
+.imgcenter {
+    width: 70%;
+    height: 40%;
+    background-color: #D8D2FB;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.imgcenter img {
+    width: 100%;
+    height: 70%;
+    /* justify-items: center;
+        align-items: center; */
+
+}
+
+.imgtitle {
+    width: 400px;
+    border: solid black 2px;
+    padding: 10px;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.imgtitle h1 {
+    font-size: 30px;
+}
+
+.imgtitle button {
+    background-color: #301D49;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.Captioncontainer {
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+}
+
+.caption1 {
+    background-color: #F2ECF9;
+    width: 70%;
+    height: 130px;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.caption1__1 {
+    display: flex;
+    gap: 20px;
+}
+
+.caption1__1 img {
+    width: 20%;
+    height: 80%;
+    rotate: 165;
+}
+
+.caption__text {
+
+    width: 800px;
+    padding: 5px;
+
+}
+
+.caption__text h4 {
+    background-color: #EFECEB;
+    font-size: 10px;
+    width: 280px;
+    padding: 5px;
+
+}
+
+.caption__text h1 {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.caption__text p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.caption1__1 button {
+
+    background-color: white;
+    border-radius: 30px;
+    border: solid black 2px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+
+.imgbox {
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    /* border: solid black 2px; */
+}
+
+.imgblog__head h1,
+p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+}
+
+.imgagess {
+    /* border: solid black 2px; */
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+
+
+}
+
+.imgblog__Sub {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.imgblog__Sub img {
+   position: relative;
+    width: 250px;
+}
+
+.imgblog__Sub h1 {
+    z-index: 2;
+
+    top:0px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0), .5;
+}
+
+.Ex {
+    justify-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Experience_container {
+    border: solid 2px black;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.contanierimage {
+
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.Experience__container_Image {
+    display: flex;
+}
+
+.Experience__Subcontainer {
+    padding: 10px;
+
+}
+
+.Experience__Subcontainer img {
+    width: 50%;
+}
+
+.Experiencecontainer__subtitle {
+    padding: 0px;
+}
+
+.Experiencecontainer__subtitle button {
+
+    background-color: white;
+    color: black;
+    border: solid black 1 px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.Experiencecontainer__subtitle h3 {
+    font-size: 12px;
+    padding: 2px;
+}
+
+.Experiencecontainer__subtitle p {
+    padding: 2PX;
+    font-size: 10px;
+}
+
+.exploree {
+    background-color: #F2F1EC;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.more_explore {
+  
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.explore_container{
+    width: 65%;
+}
+
+.explore_container h1{
+font-size: 14px;
+}
+
+.explore__Subimages {
+
+    position: relative;
+    padding: 10px;
+}
+.explore__Subimages img{
+   width: 100%
+}
+
+.explore_container_Images {
+    display: flex;  
+    justify-content: center;
+}
+
+.fa-regular {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 4px;
+
+}
